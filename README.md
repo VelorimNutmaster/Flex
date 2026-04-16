@@ -1,2 +1,2 @@
-# Flex
+# Flexbox
 Proejct to show flexbox
