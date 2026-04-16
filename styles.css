@@ -112,6 +112,8 @@ a
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        align-items: baseline;
+        margin-bottom: 100px;
     }
     .content
     {
@@ -124,13 +126,24 @@ a
     .box
     {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-basis: 33%;
+    align-items: center;
+    font-weight: 300;
     }
-    .para
+    #zoro
     {
-        width: auto
+        margin-bottom: 15px;
     }
-       
-    
+   .image
+   {
+    margin-bottom: 0px;
+   }
+       p{
+        margin-top: 10px;
+        width: 40%;
+       }
+    .footer{
+        margin-bottom: 50px;
+    }
